@@ -5,155 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇸🇬SG-🇸🇬SG_782, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
   - {name: CYL-科技（2022.01.22）, server: freeb.vproxy.us, port: 32559, type: trojan, password: fd54b442-3a4c-4580-bd9a-70e1b249eceb, sni: freeb.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_983, server: t7.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_227, server: t1.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_986, server: t2.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_228, server: t1.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_229, server: t3.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_988, server: t7.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_231, server: t3.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: RO_706, server: 62.216.92.179, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: RO_702, server: 62.216.92.179, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: HK_643 | 0.03Mb, server: 218.190.242.130, port: 443, type: trojan, password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia, skip-cert-verify: true, udp: true}
   - {name: CYL-科技（2022.01.22） 2, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 3, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_983, server: t7.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_987, server: t6.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_228, server: t1.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: US_1832, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_227, server: t1.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_229, server: t3.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_231, server: t3.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_985, server: t6.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_988, server: t7.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: NL_875, server: 89.31.127.151, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
   - {name: NL_876, server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 3, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_271, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2365, server: t5.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇦CA-🇨🇦CA_230, server: t4.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: _46 |51.86Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2363, server: t5.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: NL_891, server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇫🇷FR_270, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_271, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RO_703, server: 62.216.92.180, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2368, server: t10.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2367, server: t10.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: US_1833, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇷🇺RU_269, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: Relay_🇫🇷FR-🇫🇷FR_481, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_987, server: t6.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: GB_436, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2367, server: t10.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2368, server: t10.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: RO_707, server: 62.216.92.179, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2381, server: t8.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇷🇺RU-🇷🇺RU_984, server: t2.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_985, server: t6.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t6.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2363, server: t5.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_2364, server: t9.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2365, server: t5.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_986, server: t2.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: GB_436, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_2366, server: t9.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t9.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: US_1830, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,39 +176,40 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -215,116 +220,119 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,39 +348,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇸🇬SG-🇸🇬SG_782
       - CYL-科技（2022.01.22）
-      - Relay_🇷🇺RU-🇷🇺RU_983
-      - Relay_🇨🇦CA-🇨🇦CA_227
-      - Relay_🇷🇺RU-🇷🇺RU_986
-      - Relay_🇨🇦CA-🇨🇦CA_228
-      - Relay_🇨🇦CA-🇨🇦CA_229
-      - Relay_🇷🇺RU-🇷🇺RU_988
-      - Relay_🇨🇦CA-🇨🇦CA_231
-      - RO_706
-      - RO_702
+      - HK_643 | 0.03Mb
       - CYL-科技（2022.01.22） 2
+      - CYL-科技（2022.01.22） 3
+      - Relay_🇷🇺RU-🇷🇺RU_983
+      - Relay_🇷🇺RU-🇷🇺RU_987
+      - Relay_🇨🇦CA-🇨🇦CA_228
+      - US_1832
+      - Relay_🇨🇦CA-🇨🇦CA_227
+      - Relay_🇨🇦CA-🇨🇦CA_229
+      - Relay_🇨🇦CA-🇨🇦CA_231
+      - Relay_🇷🇺RU-🇷🇺RU_985
+      - Relay_🇷🇺RU-🇷🇺RU_988
       - NL_875
       - NL_876
-      - CYL-科技（2022.01.22） 3
+      - Relay_🇨🇳CN-🇷🇺RU_271
+      - Relay_🇺🇸US-🇺🇸US_2365
       - Relay_🇨🇦CA-🇨🇦CA_230
       - _46 |51.86Mb
+      - Relay_🇺🇸US-🇺🇸US_2363
+      - NL_891
       - Relay_🇨🇳CN-🇫🇷FR_270
-      - Relay_🇨🇳CN-🇷🇺RU_271
-      - RO_703
+      - Relay_🇺🇸US-🇺🇸US_2368
+      - Relay_🇺🇸US-🇺🇸US_2367
+      - US_1833
       - Relay_🇨🇳CN-🇷🇺RU_269
       - Relay_🇫🇷FR-🇫🇷FR_481
-      - Relay_🇷🇺RU-🇷🇺RU_987
-      - GB_436
-      - Relay_🇺🇸US-🇺🇸US_2367
-      - Relay_🇺🇸US-🇺🇸US_2368
-      - RO_707
+      - Relay_🇺🇸US-🇺🇸US_2381
       - Relay_🇷🇺RU-🇷🇺RU_984
-      - Relay_🇷🇺RU-🇷🇺RU_985
-      - Relay_🇺🇸US-🇺🇸US_2363
       - Relay_🇺🇸US-🇺🇸US_2364
-      - Relay_🇺🇸US-🇺🇸US_2365
+      - Relay_🇷🇺RU-🇷🇺RU_986
+      - GB_436
       - Relay_🇺🇸US-🇺🇸US_2366
+      - US_1830
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
