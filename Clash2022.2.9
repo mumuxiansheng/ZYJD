@@ -5,243 +5,447 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇸🇬SG_311, server: ddns02.r8o8c8k.xyz, port: 65016, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns02.r8o8c8k.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_303, server: ddns03.r8o8c8k.xyz, port: 65005, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns03.r8o8c8k.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_298, server: ddns01.r8o8c8k.xyz, port: 65015, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns01.r8o8c8k.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2444, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2451, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2458, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2445, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_623, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_339, server: e2322f9.na.gladns.com, port: 3389, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.na.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_620, server: hgc1.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: hgc1.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_329, server: ddns05.r8o8c8k.xyz, port: 65027, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns05.r8o8c8k.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_299, server: ddns05.r8o8c8k.xyz, port: 65028, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns05.r8o8c8k.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2522, server: xioix.gq, port: 443, type: trojan, password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363, sni: xioix.gq, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_276, server: t1.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: HK_621, server: 218.190.242.130, port: 443, type: trojan, password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2505, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: _34 |82.92Mb, server: t3.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_340, server: e2322f9.nd.gladns.com, port: 3389, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.nd.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2523, server: t5.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2517, server: t10.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_953, server: t2.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2520, server: t5.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t5.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2512, server: t10.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t10.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_278, server: t1.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_948, server: t2.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_275, server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_279, server: t4.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_949, server: t7.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_341, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_277, server: t3.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: HK_739 |24.01Mb, server: hk17.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: hk17.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: US_1961, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US_1959, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2499, server: 51.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 51.moons.team, skip-cert-verify: true, udp: true}
-  - {name: US_1960, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2501, server: 45.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 45.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_838, server: 25.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 25.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2514, server: 46.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 46.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_839, server: 26.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 26.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1080, server: tt1.tjvpn.top, port: 2022, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt1.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2519, server: 52.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 52.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_837, server: 29.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 29.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2507, server: 22.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 22.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_308, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: GB_474, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2511, server: trojan.shanjun.me, port: 443, type: trojan, password: 8aa575ab-8f26-3b63-88af-4110282e4100, sni: trojan.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2515, server: 24.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 24.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2509, server: 44.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 44.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2503, server: 43.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 43.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2506, server: 21.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 21.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_836, server: 30.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 30.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2513, server: 23.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 23.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2502, server: 49.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 49.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2500, server: 50.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 50.moons.team, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2504, server: t8.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t8.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 加拿大_TG@nodesharing_264, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_TG@nodesharing_159, server: 134.195.196.214, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_TG@nodesharing_60, server: 169.197.142.216, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大_TG@nodesharing_385, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_278, server: 169.197.143.29, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 英国_TG@nodesharing_156, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_78, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_67, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_TG@nodesharing_183, server: 172.99.190.153, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大_TG@nodesharing_215, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大_TG@nodesharing_227, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_141, server: 38.68.134.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国_TG@nodesharing_76, server: 172.99.188.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_59, server: 38.68.135.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_TG@nodesharing_152, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 英国_TG@nodesharing_111, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_TG@nodesharing_64, server: 38.68.134.191, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_TG@nodesharing_226, server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_TG@nodesharing_142, server: 169.197.142.216, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_TG@nodesharing_66, server: 38.68.135.112, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_273, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_TG@nodesharing_203, server: 134.195.196.221, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大_TG@nodesharing_200, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_133, server: 38.68.134.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_71, server: 38.68.134.48, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_68, server: 38.68.134.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_TG@nodesharing_182, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_193, server: 38.121.43.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 英国_TG@nodesharing_153, server: 172.99.190.186, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_137, server: 167.88.63.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_65, server: 169.197.142.48, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国_TG@nodesharing_172, server: 172.99.190.186, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国_TG@nodesharing_151, server: 172.99.190.139, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_288, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国_TG@nodesharing_75, server: 38.68.134.9, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_136, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_96, server: 172.99.188.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_TG@nodesharing_149, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_242, server: 38.68.134.9, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国_TG@nodesharing_123, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国_TG@nodesharing_140, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_180, server: 167.88.63.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大_TG@nodesharing_387, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_TG@nodesharing_266, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国_TG@nodesharing_110, server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大_TG@nodesharing_187, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_88, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_127, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_250, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_121, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_116, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国_TG@nodesharing_138, server: 38.68.134.9, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_TG@nodesharing_112, server: 172.99.190.139, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国_TG@nodesharing_101, server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_294, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_418, server: 142.202.48.77, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_TG@nodesharing_267, server: 167.88.63.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_171, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_91, server: 38.68.134.48, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国_TG@nodesharing_118, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国_TG@nodesharing_117, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_TG@nodesharing_155, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大_TG@nodesharing_300, server: 134.195.196.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_416, server: 142.202.48.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_99, server: 38.68.134.48, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_TG@nodesharing_115, server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_TG@nodesharing_197, server: 134.195.196.110, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_TG@nodesharing_274, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_102, server: 38.68.134.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_TG@nodesharing_161, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大_TG@nodesharing_296, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_27, server: 38.114.114.77, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国_TG@nodesharing_276, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国_TG@nodesharing_94, server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国_TG@nodesharing_170, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_189, server: 167.88.63.28, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 英国_TG@nodesharing_108, server: 172.99.190.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国_TG@nodesharing_58, server: 38.68.134.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: tt1.tjvpn.top:2022, server: tt1.tjvpn.top, port: 2022, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt1.tjvpn.top, skip-cert-verify: true, udp: true}
+  - {name: 英国_TG@nodesharing_128, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_293, server: 38.121.43.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_TG@nodesharing_74, server: 38.68.135.112, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_TG@nodesharing_72, server: 38.68.135.112, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_TG@nodesharing_175, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_TG@nodesharing_148, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国_TG@nodesharing_93, server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大_TG@nodesharing_298, server: 198.57.27.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: t7.ssrsub.com:8443, server: t7.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: t4.ssrsub.com:8443, server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 美国_TG@nodesharing_284, server: 169.197.142.48, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大_TG@nodesharing_280, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 德国_TG@nodesharing_26, server: 139.162.132.116, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_301, server: 167.88.63.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 英国_TG@nodesharing_139, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: t2.ssrsub.com:8443, server: t2.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 英国_TG@nodesharing_179, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_TG@nodesharing_124, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_TG@nodesharing_285, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_97, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_201, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 英国_TG@nodesharing_372, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_235, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国_TG@nodesharing_35, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 109.74.194.189:1443, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,61 +464,112 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -325,182 +580,335 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -516,61 +924,112 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇸🇬SG_311
-      - Relay_🇨🇳CN-🇯🇵JP_303
-      - Relay_🇨🇳CN-🇸🇬SG_298
-      - Relay_🇺🇸US-🇺🇸US_2444
-      - Relay_🇺🇸US-🇺🇸US_2451
-      - Relay_🇺🇸US-🇺🇸US_2458
-      - Relay_🇺🇸US-🇺🇸US_2445
-      - Relay_🇭🇰HK-🇭🇰HK_623
-      - Relay_🇨🇳CN-🇹🇼TW_339
-      - Relay_🇭🇰HK-🇭🇰HK_620
-      - Relay_🇨🇳CN-🇬🇧GB_329
-      - Relay_🇨🇳CN-🇬🇧GB_299
-      - Relay_🇺🇸US-🇺🇸US_2522
-      - Relay_🇨🇦CA-🇨🇦CA_276
-      - HK_621
-      - Relay_🇺🇸US-🇺🇸US_2505
-      - _34 |82.92Mb
-      - Relay_🇨🇳CN-🇹🇼TW_340
-      - Relay_🇺🇸US-🇺🇸US_2523
-      - Relay_🇺🇸US-🇺🇸US_2517
-      - Relay_🇷🇺RU-🇷🇺RU_953
-      - Relay_🇺🇸US-🇺🇸US_2520
-      - Relay_🇺🇸US-🇺🇸US_2512
-      - Relay_🇨🇦CA-🇨🇦CA_278
-      - Relay_🇷🇺RU-🇷🇺RU_948
-      - Relay_🇨🇦CA-🇨🇦CA_275
-      - Relay_🇨🇦CA-🇨🇦CA_279
-      - Relay_🇷🇺RU-🇷🇺RU_949
-      - Relay_🇨🇳CN-🇺🇸US_341
-      - Relay_🇨🇦CA-🇨🇦CA_277
-      - HK_739 |24.01Mb
-      - US_1961
-      - US_1959
-      - Relay_🇺🇸US-🇺🇸US_2499
-      - US_1960
-      - Relay_🇺🇸US-🇺🇸US_2501
-      - Relay_🇳🇱NL-🇳🇱NL_838
-      - Relay_🇺🇸US-🇺🇸US_2514
-      - Relay_🇳🇱NL-🇳🇱NL_839
-      - Relay_🇸🇬SG-🇸🇬SG_1080
-      - Relay_🇺🇸US-🇺🇸US_2519
-      - Relay_🇳🇱NL-🇳🇱NL_837
-      - Relay_🇺🇸US-🇺🇸US_2507
-      - Relay_🇨🇳CN-🇷🇺RU_308
-      - GB_474
-      - Relay_🇺🇸US-🇺🇸US_2511
-      - Relay_🇺🇸US-🇺🇸US_2515
-      - Relay_🇺🇸US-🇺🇸US_2509
-      - Relay_🇺🇸US-🇺🇸US_2503
-      - Relay_🇺🇸US-🇺🇸US_2506
-      - Relay_🇳🇱NL-🇳🇱NL_836
-      - Relay_🇺🇸US-🇺🇸US_2513
-      - Relay_🇺🇸US-🇺🇸US_2502
-      - Relay_🇺🇸US-🇺🇸US_2500
-      - Relay_🇺🇸US-🇺🇸US_2504
+      - 加拿大_TG@nodesharing_264
+      - 加拿大_TG@nodesharing_159
+      - 美国_TG@nodesharing_60
+      - 加拿大_TG@nodesharing_385
+      - 美国_TG@nodesharing_278
+      - 英国_TG@nodesharing_156
+      - 美国_TG@nodesharing_78
+      - 美国_TG@nodesharing_67
+      - 英国_TG@nodesharing_183
+      - 加拿大_TG@nodesharing_215
+      - 加拿大_TG@nodesharing_227
+      - 美国_TG@nodesharing_141
+      - 美国_TG@nodesharing_76
+      - 美国_TG@nodesharing_59
+      - 美国_TG@nodesharing_152
+      - 英国_TG@nodesharing_111
+      - 美国_TG@nodesharing_64
+      - 加拿大_TG@nodesharing_226
+      - 美国_TG@nodesharing_142
+      - 美国_TG@nodesharing_66
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_203
+      - 加拿大_TG@nodesharing_200
+      - 美国_TG@nodesharing_133
+      - 美国_TG@nodesharing_71
+      - 美国_TG@nodesharing_68
+      - 美国_TG@nodesharing_182
+      - 美国_TG@nodesharing_193
+      - 英国_TG@nodesharing_153
+      - 美国_TG@nodesharing_137
+      - 美国_TG@nodesharing_65
+      - 英国_TG@nodesharing_172
+      - 英国_TG@nodesharing_151
+      - 加拿大_TG@nodesharing_194
+      - 加拿大_TG@nodesharing_288
+      - 美国_TG@nodesharing_75
+      - 美国_TG@nodesharing_136
+      - 美国_TG@nodesharing_96
+      - 英国_TG@nodesharing_149
+      - 美国_TG@nodesharing_242
+      - 英国_TG@nodesharing_123
+      - 英国_TG@nodesharing_140
+      - 美国_TG@nodesharing_180
+      - 加拿大_TG@nodesharing_387
+      - 英国_TG@nodesharing_266
+      - 英国_TG@nodesharing_110
+      - 加拿大_TG@nodesharing_187
+      - 美国_TG@nodesharing_88
+      - 美国_TG@nodesharing_127
+      - 加拿大_TG@nodesharing_250
+      - 美国_TG@nodesharing_121
+      - 美国_TG@nodesharing_116
+      - 美国_TG@nodesharing_138
+      - 英国_TG@nodesharing_112
+      - 英国_TG@nodesharing_101
+      - 加拿大_TG@nodesharing_294
+      - 美国_TG@nodesharing_418
+      - 美国_TG@nodesharing_267
+      - 美国_TG@nodesharing_171
+      - 美国_TG@nodesharing_91
+      - 美国_TG@nodesharing_118
+      - 英国_TG@nodesharing_117
+      - 英国_TG@nodesharing_155
+      - 加拿大_TG@nodesharing_300
+      - 美国_TG@nodesharing_416
+      - 美国_TG@nodesharing_99
+      - 美国_TG@nodesharing_115
+      - 加拿大_TG@nodesharing_197
+      - 加拿大_TG@nodesharing_274
+      - 美国_TG@nodesharing_102
+      - 美国_TG@nodesharing_161
+      - 加拿大_TG@nodesharing_296
+      - 美国_TG@nodesharing_27
+      - 美国_TG@nodesharing_276
+      - 英国_TG@nodesharing_94
+      - 美国_TG@nodesharing_170
+      - 美国_TG@nodesharing_189
+      - 英国_TG@nodesharing_108
+      - 美国_TG@nodesharing_58
+      - tt1.tjvpn.top:2022
+      - 英国_TG@nodesharing_128
+      - 美国_TG@nodesharing_293
+      - 美国_TG@nodesharing_74
+      - 美国_TG@nodesharing_72
+      - 美国_TG@nodesharing_175
+      - 美国_TG@nodesharing_148
+      - 英国_TG@nodesharing_93
+      - 加拿大_TG@nodesharing_298
+      - t7.ssrsub.com:8443
+      - t4.ssrsub.com:8443
+      - 美国_TG@nodesharing_284
+      - 加拿大_TG@nodesharing_280
+      - 德国_TG@nodesharing_26
+      - 美国_TG@nodesharing_301
+      - 英国_TG@nodesharing_139
+      - t2.ssrsub.com:8443
+      - 英国_TG@nodesharing_179
+      - 美国_TG@nodesharing_124
+      - 加拿大_TG@nodesharing_285
+      - 美国_TG@nodesharing_97
+      - 美国_TG@nodesharing_201
+      - 英国_TG@nodesharing_372
+      - 美国_TG@nodesharing_235
+      - 法国_TG@nodesharing_35
+      - 109.74.194.189:1443
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
